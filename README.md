@@ -2,22 +2,20 @@
 
 ## Sample problems
 
-### task 01
+### Task 01
 
 In the programming language of your choice load the `test_data\test_cases.csv` file into a data structure that you can work with.
 
 - Clean the data that can be cleaned e.g. remove new line in description
 - Log errors
+- Output cleaned file
+- Output log file include errors and information messages
 
-Output cleaned file
-Output log file include errors and information messages
+### Task 02
 
-### task 02
+Display contents of `test_data\items.dat` in a web page using a data grid component that gives the ability to manipulate the data.
 
-Display contents of `test_data\items.dat` in grid/table web page.
-Use a control that gives extra grid functions.
-
-### task 03
+### Task 03
 
 - set-up a database server of your choice, we use postgreSQL
 - create table for the data in `test_data\items.dat`
