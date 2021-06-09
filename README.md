@@ -26,6 +26,25 @@ Display contents of `test_data\items.dat` in a web page using a data grid compon
     - Find the transaction_id or transaction_ids with the highest gross sales value
     - Find the site or sites with the highest number of units
 
+### Task 04
+
+In the file `test_data\items.dat` more than one product can appear with the same transaction id e.g. the transaction `6582190-3146-5e0a-8534-d45b7d0ff913`
+
+In the programming language of your choice write a program to:
+
+- load data from `test_data\items.dat` into memory
+- find all the transaction ids that do *not* have the `Heineken` product in
+- write into a new file the list of all the transaction ids found in the step above
+
+### Task 05
+
+Terraform
+
+Supply terraform file(s) to create a VPC in a region define by a parameter:
+
+- create a private and public subnets in 2 availability zones
+- create a single DMZ public subnets that has no internal access to both the private and public subnets
+
 ## Background on the data
 
 ### test_data\test_cases.csv
