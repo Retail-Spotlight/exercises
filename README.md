@@ -43,7 +43,7 @@ Terraform
 Supply terraform file(s) to create a VPC in a region define by a parameter:
 
 - create a private and public subnets in 2 availability zones
-- create a single DMZ public subnets that has no internal access to both the private and public subnets
+- create a single DMZ public subnet that has no internal access to both the private and public subnets
 
 ## Background on the data
 
