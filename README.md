@@ -45,6 +45,17 @@ Supply terraform file(s) to create a VPC in a region define by a parameter:
 - create a private and public subnets in 2 availability zones
 - create a single DMZ public subnet that has no internal access to both the private and public subnets
 
+### Task 06
+
+Linux command line
+
+With the file `test_data\items.dat` using linux command line:
+
+- How many lines in the file
+- How many unique transaction ids
+- Find a transaction with 3 rows
+- Create a copy of the file without the line with the gross_value `13.0.35`
+
 ## Background on the data
 
 ### test_data\test_cases.csv
